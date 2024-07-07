@@ -37,7 +37,7 @@ const months = new Map(
 )
 
 async function getWeather() {
-    const api = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${forecastLocation}&days=${forecastDays}`;
+    const api = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${forecastLocation}&days=${forecastDays}`;
     try {
         const result = await fetch(api)
         if (result.ok) {
