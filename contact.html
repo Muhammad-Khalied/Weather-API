@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg main-bg-color py-5">
+        <div class="container">
+          <a class="text-decoration-none text-white d-flex" href="index.html">
+            <div class="mx-3 d-flex align-items-center">
+              <img src="images/logo.png" class="" alt="" />
+            </div>
+            <div class="logo">
+              <h1 class="h5">Weather</h1>
+              <small class="second-color small">tagline goes here</small>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mt-4 mt-lg-0">
+              <li class="mx-lg-3">
+                <a
+                  class="my-nav-link text-center text-decoration-none px-4 d-block py-lg-1 py-3"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="mx-lg-3">
+                <a
+                  class="my-nav-link text-center text-decoration-none px-4 d-block py-lg-1 py-3"
+                  href="news.html"
+                  >News</a
+                >
+              </li>
+              <li class="mx-lg-3">
+                <a
+                  class="my-nav-link text-center text-decoration-none px-4 d-block py-lg-1 py-3"
+                  href="live.html"
+                  >Live cameras</a
+                >
+              </li>
+              <li class="mx-lg-3">
+                <a
+                  class="my-nav-link text-center text-decoration-none px-4 d-block py-lg-1 py-3"
+                  href="photos.html"
+                  >Photos</a
+                >
+              </li>
+              <li class="mx-lg-3">
+                <a
+                  class="my-nav-link text-center text-decoration-none px-4 d-block py-lg-1 py-3 active"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="dark-bg-color w-100 py-3 mb-5 rounded-5">
+            <a
+              class="return-home text-center second-color d-inline-block ps-4"
+              href="index.html"
+              >Home</a
+            >
+            <span class="text-white">Contact</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="dark-bg-color rounded-3 p-3">
+                        <div class="map"></div>
+                        <div class="contact-info">
+                            <address class="d-flex my-0">
+                                <div><img src="images/icon-marker.png" class="pe-2"></div>
+                                <p class="second-color small-font">Company Name INC. <br>
+                                2803 Avenue Street, Los Angeles</p>
+                            </address>
+                            <a href="#" class="pe-2 text-decoration-none second-color small-font"><img class="pe-2 " src="images/icon-phone.png" alt="">+1 800 314 235</a>
+                            <a href="#" class="text-decoration-none second-color small-font"><img class="pe-2 " src="images/icon-envelope.png" alt="">contact@companyname.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 text-white ms-auto">
+                    <h2 class="">Contact us</h2>
+                    <p class="second-color small-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6"><input type="text" class="form-control mt-2 py-3 ps-4 text-white main-bg-color rounded-5" placeholder="Your name..."></div>
+                            <div class="col-lg-6"><input type="text" class="form-control mt-2 py-3 ps-4 text-white main-bg-color rounded-5" placeholder="Email Address..."></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6"><input type="text" class="form-control mt-2 py-3 ps-4 text-white main-bg-color rounded-5" placeholder="Company name..."></div>
+                            <div class="col-lg-6"><input type="text" class="form-control mt-2 py-3 ps-4 text-white main-bg-color rounded-5" placeholder="Website..."></div>
+                        </div>
+                        <textarea rows="5" class="mt-2 form-control py-3 ps-4 text-white main-bg-color rounded-5" placeholder="Message..."></textarea>
+                        <input type="submit" class="find-button btn blue-bg-color text-white px-4 rounded-5 mt-3 float-end" placeholder="Send message">
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="dark-bg-color py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="subscribe position-relative">
+              <input
+                type="text"
+                class="form-control py-3 ps-4 text-white main-bg-color rounded-5"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button
+                class="find-button btn blue-bg-color text-white px-5 rounded-5 position-absolute"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-3 ms-auto py-4 py-lg-2">
+            <ul class="d-flex gap-2 list-unstyled">
+              <a
+                href="#"
+                class="p-2 rounded-circle main-bg-color blue-color icon-link text-decoration-none d-flex justify-content-center align-content-center"
+                ><i class="fab fs-5 fa-facebook-f"></i
+              ></a>
+              <a
+                href="#"
+                class="p-2 rounded-circle main-bg-color blue-color icon-link text-decoration-none d-flex justify-content-center align-content-center"
+                ><i class="fab fs-5 fa-twitter"></i
+              ></a>
+              <a
+                href="#"
+                class="p-2 rounded-circle main-bg-color blue-color icon-link text-decoration-none d-flex justify-content-center align-content-center"
+                ><i class="fab fs-5 fa-google-plus-g"></i
+              ></a>
+              <a
+                href="#"
+                class="p-2 rounded-circle main-bg-color blue-color icon-link text-decoration-none d-flex justify-content-center align-content-center"
+                ><i class="fab fs-5 fa-pinterest-p"></i
+              ></a>
+            </ul>
+          </div>
+        </div>
+        <p class="second-color">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
